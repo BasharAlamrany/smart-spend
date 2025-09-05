@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Residence",
+  "name": "{{PROPERTY_TITLE}}",
+  "description": "{{PROPERTY_DESCRIPTION}}",
+  "url": "{{PROPERTY_URL}}",
+  "image": "{{PROPERTY_IMAGES}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{PROPERTY_ADDRESS}}",
+    "addressLocality": "{{PROPERTY_CITY}}",
+    "addressCountry": "Yemen"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{PROPERTY_LATITUDE}}",
+    "longitude": "{{PROPERTY_LONGITUDE}}"
+  },
+  "floorSize": {
+    "@type": "QuantitativeValue",
+    "value": "{{PROPERTY_AREA}}",
+    "unitCode": "MTK"
+  },
+  "numberOfRooms": "{{PROPERTY_ROOMS}}",
+  "numberOfBathroomsTotal": "{{PROPERTY_BATHROOMS}}",
+  "yearBuilt": "{{PROPERTY_YEAR_BUILT}}",
+  "petsAllowed": false,
+  "offers": {
+    "@type": "Offer",
+    "price": "{{PROPERTY_PRICE}}",
+    "priceCurrency": "{{PROPERTY_CURRENCY}}",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "{{PROPERTY_CREATED_DATE}}",
+    "seller": {
+      "@type": "RealEstateAgent",
+      "name": "Alamrani Real Estate",
+      "telephone": "+967-1-234567",
+      "email": "info@alamrani-realestate.com"
+    },
+    "offeredBy": {
+      "@type": "Person",
+      "name": "{{AGENT_NAME}}",
+      "telephone": "{{AGENT_PHONE}}",
+      "email": "{{AGENT_EMAIL}}"
+    }
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Parking",
+      "value": "{{HAS_PARKING}}"
+    },
+    {
+      "@type": "LocationFeatureSpecification", 
+      "name": "Garden",
+      "value": "{{HAS_GARDEN}}"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Swimming Pool", 
+      "value": "{{HAS_POOL}}"
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Elevator",
+      "value": "{{HAS_ELEVATOR}}"
+    }
+  ],
+  "category": "{{PROPERTY_TYPE}}",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Furnished Status",
+      "value": "{{FURNISHED_STATUS}}"
+    },
+    {
+      "@type": "PropertyValue", 
+      "name": "Floor Number",
+      "value": "{{FLOOR_NUMBER}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Total Floors", 
+      "value": "{{TOTAL_FLOORS}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Listing Type",
+      "value": "{{LISTING_TYPE}}"
+    }
+  ]
+}

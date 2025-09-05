@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Alamrani Real Estate",
+  "alternateName": "العمراني للعقارات",
+  "url": "http://localhost/alamrani",
+  "logo": "http://localhost/alamrani/images/logo.png",
+  "image": "http://localhost/alamrani/images/hero-bg.jpg",
+  "description": "Leading real estate agency in Yemen providing the best real estate services for sale and rent in Sana'a and throughout Yemen",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Sixty Street",
+    "addressLocality": "Sana'a",
+    "addressRegion": "Sana'a Governorate",
+    "addressCountry": "Yemen"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "15.3694",
+    "longitude": "44.1910"
+  },
+  "telephone": "+967-1-234567",
+  "email": "info@alamrani-realestate.com",
+  "openingHours": "Mo-Th 08:00-18:00, Sa 08:00-18:00",
+  "priceRange": "$$",
+  "currenciesAccepted": "YER",
+  "paymentAccepted": "Cash, Bank Transfer",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Sana'a"
+    },
+    {
+      "@type": "Country",
+      "name": "Yemen"
+    }
+  ],
+  "serviceType": [
+    "Real Estate Sales",
+    "Real Estate Rentals", 
+    "Property Management",
+    "Real Estate Investment Consulting"
+  ],
+  "sameAs": [
+    "https://facebook.com/alamrani-realestate",
+    "https://instagram.com/alamrani-realestate",
+    "https://twitter.com/alamrani_re"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Ahmed Al-Alamrani"
+  },
+  "foundingDate": "2010",
+  "numberOfEmployees": "15-20",
+  "slogan": "Your trusted partner in real estate"
+}

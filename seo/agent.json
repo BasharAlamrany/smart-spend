@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "{{AGENT_NAME}}",
+  "description": "{{AGENT_BIO}}",
+  "url": "{{AGENT_URL}}",
+  "image": "{{AGENT_IMAGE}}",
+  "telephone": "{{AGENT_PHONE}}",
+  "email": "{{AGENT_EMAIL}}",
+  "jobTitle": "Real Estate Agent",
+  "worksFor": {
+    "@type": "RealEstateAgent",
+    "name": "Alamrani Real Estate",
+    "url": "http://localhost/alamrani",
+    "telephone": "+967-1-234567",
+    "email": "info@alamrani-realestate.com"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sana'a",
+    "addressCountry": "Yemen"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Sana'a"
+    },
+    {
+      "@type": "Country", 
+      "name": "Yemen"
+    }
+  ],
+  "knowsAbout": [
+    "Real Estate Sales",
+    "Property Valuation",
+    "Market Analysis",
+    "Investment Properties",
+    "Residential Properties",
+    "Commercial Properties"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Professional License",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Yemen Real Estate Association"
+    }
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Years of Experience",
+      "value": "{{AGENT_EXPERIENCE}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "License Number", 
+      "value": "{{AGENT_LICENSE}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Specialization",
+      "value": "{{AGENT_SPECIALIZATION}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Languages Spoken",
+      "value": "Arabic, English"
+    }
+  ]
+}
